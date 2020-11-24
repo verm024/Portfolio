@@ -1,14 +1,6 @@
 <template>
   <div class="about container">
-    <v-row class="d-flex align-center">
-      <v-col class="col-5 text-center">
-        <hr />
-      </v-col>
-      <v-col class="col-2 text-center pre-component-title"> About Me </v-col>
-      <v-col class="col-5 text-center">
-        <hr />
-      </v-col>
-    </v-row>
+    <ComponentTitle text="About Me" />
     <v-row>
       <v-col class="col-8 offset-2 text-center">
         <span class="about-text">
@@ -95,8 +87,13 @@
 </template>
 
 <script>
+import ComponentTitle from "@/components/ComponentTitle";
+
 export default {
   name: "About",
+  components: {
+    ComponentTitle,
+  },
   data() {
     return {
       about_tab: null,
@@ -116,13 +113,6 @@ export default {
 </script>
 
 <style scoped>
-.pre-component-title {
-  font-size: 24px;
-  color: #ffd082 !important;
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-}
-
 .about-text {
   color: white;
   font-family: "Open Sans", sans-serif;
