@@ -2,41 +2,33 @@
   <v-app>
     <v-app-bar app color="#21243D" dark flat>
       <div class="container d-flex align-center">
-        <div>
-          <v-img
-            alt="Muhammad Naufal"
-            contain
-            src="@/assets/logo-naufal.png"
-            width="100px"
-          />
-        </div>
+        <router-link to="/">
+          <div>
+            <v-img
+              alt="Muhammad Naufal"
+              contain
+              src="@/assets/logo-naufal.png"
+              width="100px"
+            />
+          </div>
+        </router-link>
         <v-btn href="#" text class="ml-auto custom-nav-link">
           <span>Home</span>
         </v-btn>
         <v-btn href="#about" text class="custom-nav-link">
           <span>About</span>
         </v-btn>
-        <v-btn
-          href="https://github.com/vuetifyjs/vuetify/releases/latest"
-          target="_blank"
-          text
-          class="custom-nav-link"
-        >
+        <v-btn href="#works" text class="custom-nav-link">
           <span>Works</span>
         </v-btn>
-        <v-btn
-          href="https://github.com/vuetifyjs/vuetify/releases/latest"
-          target="_blank"
-          text
-          class="custom-nav-link"
-        >
+        <v-btn href="#blog" text class="custom-nav-link">
           <span>Blog</span>
         </v-btn>
         <v-btn
-          href="https://github.com/vuetifyjs/vuetify/releases/latest"
+          href="https://wa.me/6285336181135"
           target="_blank"
           text
-          class="custom-nav-link"
+          class="custom-nav-link custom-nav-contact"
         >
           <span>Contact</span>
         </v-btn>
@@ -58,6 +50,10 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .custom-nav-link {
   font-family: "Open Sans", sans-serif;
   font-weight: 600 !important;
@@ -74,5 +70,11 @@ export default {
 
 .custom-nav-link:hover span {
   color: #ffd082 !important;
+}
+
+.custom-nav-contact {
+  color: #ffd082 !important;
+  border: 2px solid #ffd082;
+  margin-left: 15px;
 }
 </style>
