@@ -1,10 +1,15 @@
 <template>
-  <v-row class="d-flex align-center">
-    <v-col class="col-5 text-center">
+  <v-row class="d-flex align-center justify-center">
+    <v-col class="col-lg-2 col-md-3 col-sm-3 d-none d-sm-block text-center">
       <hr />
     </v-col>
-    <v-col class="col-2 text-center pre-component-title"> {{ text }} </v-col>
-    <v-col class="col-5 text-center">
+    <v-col
+      class="col-lg-2 col-md-3 col-sm-4 col-7 text-center pre-component-title"
+    >
+      {{ text }}
+      <hr class="d-sm-none" />
+    </v-col>
+    <v-col class="col-lg-2 col-md-3 col-sm-3 d-none d-sm-block text-center">
       <hr />
     </v-col>
   </v-row>

@@ -39,6 +39,7 @@
                 class="about-tab-card-1 about-tab-card"
                 width="200px"
                 color="#393E6A"
+                :elevation="4"
               >
                 <v-card-text>
                   <div class="about-tab-card-icon">
@@ -53,6 +54,7 @@
                 class="about-tab-card-2 about-tab-card"
                 width="200px"
                 color="#393E6A"
+                :elevation="4"
               >
                 <v-card-text>
                   <div class="about-tab-card-icon">
@@ -67,6 +69,7 @@
                 class="about-tab-card-3 about-tab-card"
                 width="200px"
                 color="#393E6A"
+                :elevation="4"
               >
                 <v-card-text>
                   <div class="about-tab-card-icon">
