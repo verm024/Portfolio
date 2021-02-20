@@ -1,6 +1,6 @@
 <template>
   <div class="works container">
-    <ComponentTitle text="My Works" />
+    <ComponentTitle text="Works Done" />
     <v-row>
       <v-col class="col-12 px-lg-8 px-md-10">
         <carousel

@@ -4,9 +4,10 @@
     <v-row>
       <v-col class="col-8 offset-2 text-center">
         <span class="about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco
+          A third year Computer Science student at Gadjah Mada University. I
+          have the skills on Front-End Web Development and i am proficient at
+          Vue.js framework. Looking forward to gain more experience as a web
+          developer.
         </span>
       </v-col>
     </v-row>

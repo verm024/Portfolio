@@ -9,6 +9,12 @@
     <div class="works-container" id="works">
       <Works />
     </div>
+    <div class="blog-container" id="blog">
+      <Blog />
+    </div>
+    <div class="contact-container" id="blog">
+      <Contact />
+    </div>
   </div>
 </template>
 
@@ -16,12 +22,16 @@
 import Header from "@/components/Header.vue";
 import About from "@/components/About.vue";
 import Works from "@/components/Works.vue";
+import Blog from "@/components/Blog.vue";
+import Contact from "@/components/Contact.vue";
 
 export default {
   components: {
     Header,
     About,
     Works,
+    Blog,
+    Contact,
   },
 };
 </script>
@@ -40,6 +50,14 @@ export default {
 }
 
 .works-container {
+  background: #2b2f4a;
+}
+
+.blog-container {
+  background: #21243d;
+}
+
+.contact-container {
   background: #2b2f4a;
 }
 </style>
